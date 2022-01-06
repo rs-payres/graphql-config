@@ -20,7 +20,7 @@ The migration tool will ask few questions and move your config files to the new 
 
 ### schemaPath
 
-Read ["Usage" chapter](./usage#schema) to understand the `schema` field.
+Read ["Usage" chapter](user-usage.md#schema) to understand the `schema` field.
 
 ```diff
 - schemaPath: "schema.graphql"
@@ -43,7 +43,7 @@ Minor change here, remove the `s` at the end. The logic behind `include` and `ex
 
 ### documents (new)
 
-Read ["Usage" chapter](./usage#documents) to understand new `documents` field.
+Read ["Usage" chapter](user-usage.md#documents) to understand new `documents` field.
 
 ```diff
 + documents: "ui/*.graphql"
@@ -51,9 +51,9 @@ Read ["Usage" chapter](./usage#documents) to understand new `documents` field.
 
 ### extensions
 
-No changes here, but please read the ["Usage" chapter](./usage#extensions).
+No changes here, but please read the ["Usage" chapter](user-usage.md#extensions).
 
 
 ### projects
 
-No changes here, but please read the ["Usage" chapter](./usage#projects).
+No changes here, but please read the ["Usage" chapter](user-usage.md#projects).
